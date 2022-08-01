@@ -1,9 +1,17 @@
 import './App.css';
+import Course from './components/courses';
+import Slide from './components/slide';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO World</h1>
+    <div >
+      <br/>
+      <br/>
+      <Slide/>
+      <br/>
+      <br/>
+     <Course/>
+     
     </div>
   );
 }
