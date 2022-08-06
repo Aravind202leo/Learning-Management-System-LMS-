@@ -1,5 +1,5 @@
 import List from './list'
-
+import './course.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const courses = () => {
   return (
