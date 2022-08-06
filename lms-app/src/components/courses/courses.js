@@ -1,9 +1,8 @@
 import List from './list'
 import './course.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 const courses = () => {
   return (
-    <div>
+    <div >
         <h1 className='cor'>COURSES</h1>
         <div className='container'>
         <div class="box"><List title="Python Programming"  des="Python for Beginners - Learn Programming from scratch and Data structures" 

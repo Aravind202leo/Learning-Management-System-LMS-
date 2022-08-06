@@ -8,12 +8,15 @@ const home = () => {
  
   
  
-  <Slide/>
+    <Slide/>
     <br/>
     <Course/>
     <br/>
     <br/>
-    <Footer/>
+    <br/>
+    <Footer />
+
+   
 
 </>)
 };

@@ -15,7 +15,7 @@ const Navbar= () =>
     return(
        <>
          <nav className='navbar'>
-         <img className="photo" src={"./images/cogniwide.jpg"} alt="" />
+        
             <Link to='/' className='nav-logo'
            onClick={closeSideDrawer} >COGNIWIDE</Link>
             <div className='menu-icon'

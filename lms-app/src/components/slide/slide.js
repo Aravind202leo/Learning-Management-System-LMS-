@@ -35,7 +35,6 @@ function slide() {
           alt="Third slide"
           width="100" height="600"
         />
-
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
@@ -50,3 +49,7 @@ function slide() {
 export default slide;
 // <img width="100%" src="https://picsum.photos/800/600?random=3" alt=' '/>
 //
+
+// src="https://stackify.com/wp-content/uploads/2017/12/Featured.jpg"
+// src="https://reciprocity.com/wp-content/uploads/2019/02/Cybersecurity-Blue.jpg"
+// src="https://content.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"

@@ -1,11 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 const list = ({title,des,img}) => {
   return (
-
-    <Card style={{ width: '15rem' }}>
+   <>
+    <Card style={{ width: '240px' }}>
     <Card.Img variant="top" src={img}/>
     <Card.Body>
       <Card.Title>{title}</Card.Title>
@@ -15,6 +13,7 @@ const list = ({title,des,img}) => {
       <Button variant="outline-dark">Start Learning </Button>
     </Card.Body>
   </Card>
+  </>
 
   )
 }
