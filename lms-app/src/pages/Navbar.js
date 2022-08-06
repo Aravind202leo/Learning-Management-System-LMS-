@@ -2,6 +2,7 @@ import './Nav.css'
 import React, {useState} from 'react'
 import {Link,Outlet} from 'react-router-dom'
 import {FaBars , FaTimes} from 'react-icons/fa'
+
 const Navbar= () =>
 {
     const [icon , setIcon] = useState(false)
@@ -14,6 +15,7 @@ const Navbar= () =>
     return(
        <>
          <nav className='navbar'>
+         <img className="photo" src={"./images/cogniwide.jpg"} />
             <Link to='/' className='nav-logo'
            onClick={closeSideDrawer} >COGNIWIDE</Link>
             <div className='menu-icon'
@@ -63,5 +65,7 @@ const Navbar= () =>
 
 
 export default Navbar
+
+
 
 

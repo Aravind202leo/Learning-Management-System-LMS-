@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import './App.css'
 import {BrowserRouter as Router , Route, Routes } from 'react-router-dom'
 import Navbar from './pages/Navbar'
@@ -15,13 +15,13 @@ export default function App() {
       <Navbar />
       <Routes>
         
-          <Route  path="/"  component={< Navbar />} />
-          <Route index component={<Home/> } />
-          <Route path="/about" component={<About/> } />
-          <Route path="services" component={<Services/> } />
-          <Route path="products" component={<Products/>} />
-          <Route path="contactus" component={<Contactus/>} />
-          <Route path="signup" component={<Signup/>} />
+          <Route  path="/" element= {<Navbar />} />
+          <Route index element={<Home/> } />
+          <Route path="about"  element={<About/> } />
+          <Route path="services"  element={<Services/> } />
+          <Route path="products" element={<Products/>} />
+          <Route path="contactus" element={<Contactus/>} />
+          <Route path="signup" element={<Signup/>} />
           
       </Routes>
       
