@@ -1,0 +1,144 @@
+.top-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url('C:\Users\keert\OneDrive\Desktop\LMS\Learning-Management-System-LMS-\lms-app\src\components\assessts\course\bg.jpg');
+}
+
+.top-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.top-name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.top-role {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+
+.top-role h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.primary-text {
+    color: (--white);
+}
+
+.highlighted-text {
+    color: lightskyblue;
+}
+
+.top-tag-line {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.top-options.highlighted-text {
+    margin: 0 0 0 28px;
+    color: black;
+}
+
+.top-options.highlighted-text:hover {
+    margin: 0 0 0 28px;
+    color: white;
+}
+
+.top-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0 0 var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0 0 100px;
+}
+
+.top-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url('C:\Users\keert\OneDrive\Desktop\LMS\Learning-Management-System-LMS-\lms-app\src\components\assessts\course\ai.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-picture-background:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+@media screen and (max-width:1110px) {
+    .top-picture {
+        margin: 0 0 0 80px;
+    }
+    .top-name {
+        font-size: 20px;
+    }
+    .top-role.primary-text {
+        font-size: 12px;
+    }
+    .top-options.btn {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .top-picture {
+        height: 320px;
+        width: 320px;
+        margin: 0 0 0 24px;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .top-picture {
+        margin: !important;
+    }
+    .top-parent {
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .top-options {
+        justify-content: space-between;
+        display: flex;
+    }
+    .top-details {
+        margin: 25px 0 0;
+    }
+    .top-options.highlighted-text {
+        margin: 0 !important;
+    }
+    .top-options,
+    .top-role {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .top-picture {
+        height: 275px;
+        width: 275px;
+        margin: -90px;
+    }
+    .top-details {
+        width: 90%;
+    }
+}
+
+.testimonial__content h2 {
+    font-weight: 600;
+}
