@@ -1,0 +1,48 @@
+    .title {
+        margin: 10px 10px 10px 10px;
+        padding: 20px;
+        font-size: 25px;
+        font-family: cursive;
+        text-align: center;
+    }
+    
+    .content {
+        margin: 20px;
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        box-shadow: 10px;
+        /* For browsers that do not support gradients */
+        background: linear-gradient(white, #4169e1);
+        opacity: 12;
+    }
+    
+    .content:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    .syl {
+        font-family: cursive;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .card {
+        padding-top: 10px;
+        margin: 20px;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    
+    ul {
+        list-style: square;
+        padding: 10px;
+    }
+    
+    .about-li {
+        border: 2px;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }

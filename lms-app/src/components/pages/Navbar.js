@@ -45,8 +45,8 @@ const Navbar= () =>
                 onClick={closeSideDrawer}>Services</Link>   
                 </li>
                 <li>
-                <Link to='/products' className='nav-links'
-                onClick={closeSideDrawer}>Products</Link>   
+                <Link to='/course' className='nav-links'
+                onClick={closeSideDrawer}>Courses</Link>   
                 </li>
                 <li>
                 <Link to='/contactus' className='nav-links'
