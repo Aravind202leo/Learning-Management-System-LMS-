@@ -1,7 +1,6 @@
 const express = require('express')
 const mysql=require('mysql2')
 const app = express()  
-
 const cors= require('cors')
 var bodyParser = require('body-parser')
 
@@ -17,8 +16,19 @@ var db = mysql.createPool({
   host: "localhost",
   user: "root",
   password:"Aravind202@",
-  database:""
+  database:"lms_db"
 });
+
+app.get("/api/get/course/:cou",(req,res)=>{
+   const cor=req.params.cou;
+
+  const sqlselect=`SELECT * FROM course WHERE courseName="${cor}"`
+  db.query(sqlselect,(err,result)=>{ 
+    if(err) console.log(err)
+      res.send(result);
+  })
+
+})
 
 
 app.listen(3001,()=>{

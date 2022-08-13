@@ -1,14 +1,13 @@
 import Top from "./aboutCourse/top";
 import About from './aboutCourse/about';
 import Footer from '../footer/footer';
-import Faq from './aboutCourse/faq/faq';
+
 
 function Coursecomponent() {
 
     return(
         <> < Top/>
              < About/> 
-             < Faq/> 
              < Footer/>
             </>
 

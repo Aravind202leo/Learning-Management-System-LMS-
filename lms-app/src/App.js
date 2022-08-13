@@ -22,7 +22,7 @@ function App() {
         <Route path="contactus" element={<Contactus/>} />
         <Route path="signup" element={<Signup/>} />
 
-        <Route path="/:coursename" element={<Coursecomponent/>}/>
+        <Route path="/hey/:coursename" element={<Coursecomponent/>}/>
         
     </Routes>
     

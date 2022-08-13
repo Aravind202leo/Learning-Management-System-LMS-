@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 600px;
-    background-image: url('C:\Users\Aravind\Desktop\keer\Learning-Management-System-LMS\lms-app\src\components\assessts\course\bg.jpg');
+    background-image: url('C:\Users\Aravind\Desktop\lms\Learning-Management-System-LMS-\lms-app\src\components\assessts\course\bg.jpg');
 }
 
 .top-parent {
@@ -67,7 +67,7 @@
 .top-picture-background {
     height: 92%;
     width: 92%;
-    background-image: url('C:\Users\Aravind\Desktop\keer\Learning-Management-System-LMS\lms-app\src\components\assessts\course\ai.jpg');
+    background-image: url('C:\Users\Aravind\Desktop\lms\Learning-Management-System-LMS-\lms-app\src\components\assessts\course\ai.jpg');
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Footer from '../footer/footer'
 
 
 function course() {
@@ -6,12 +7,18 @@ function course() {
    <>
       <h1 className='course'>COURSES</h1>
       <br/>
-      <Link to="/reactjs" > REACT COURSE</Link>
+      <Link to="/hey/reactjs" > REACT COURSE</Link>
      <br/>
-      <Link to="/Web" >COURSE CONTENT</Link>
+      <Link to="/hey/Web" >webdevelop CONTENT</Link>
 
       <br/>
+     < br/>
+     <br/>
+     < br/>
+     <br/>
+     < br/>
       
+    <Footer/>
 
 
 
