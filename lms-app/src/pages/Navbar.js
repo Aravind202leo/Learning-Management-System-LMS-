@@ -15,7 +15,7 @@ const Navbar= () =>
     return(
        <>
          <nav className='navbar'>
-         <img className="photo" src={"./images/cogniwide.jpg"} />
+        
             <Link to='/' className='nav-logo'
            onClick={closeSideDrawer} >COGNIWIDE</Link>
             <div className='menu-icon'
@@ -42,11 +42,11 @@ const Navbar= () =>
                 </li>
                 <li>
                 <Link to='/services' className='nav-links'
-                onClick={closeSideDrawer}>Services</Link>   
+                onClick={closeSideDrawer}>Challenges</Link>   
                 </li>
                 <li>
                 <Link to='/products' className='nav-links'
-                onClick={closeSideDrawer}>Products</Link>   
+                onClick={closeSideDrawer}>Progress</Link>   
                 </li>
                 <li>
                 <Link to='/contactus' className='nav-links'
@@ -65,7 +65,3 @@ const Navbar= () =>
 
 
 export default Navbar
-
-
-
-
