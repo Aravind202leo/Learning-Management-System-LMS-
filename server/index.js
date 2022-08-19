@@ -31,6 +31,25 @@ app.get("/api/get/course/:cou",(req,res)=>{
 })
 
 
+
+// app.post("/api/feedback",(req,res)=>{
+//   console.log(req);
+
+//   const name= req.body.name;
+//   const email=req.body.email
+//   const message=req.body.message;
+  
+
+//   const sqlInsert="INSERT INTO feedback (Name,Email,Message) VALUES (?,?,?) ;"
+//   db.query(sqlInsert,[name,email,message],(err,result)=>{
+//       if(err) console.log(err)
+//        else{
+//           console.log("value Inserted ");
+//        }
+//   })
+
+// });
+
 app.listen(3001,()=>{
   console.log("Server Running in port 3001")
 })

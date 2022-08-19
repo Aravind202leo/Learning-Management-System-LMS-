@@ -7,6 +7,7 @@ import Courses from './components/pages/course'
 import Contactus from './components/pages/contactus'
 import Signup from './components/pages/signup'
 import Coursecomponent from './components/pages/coursecomponent'
+import './App.css';
 
 function App() {
   return (
