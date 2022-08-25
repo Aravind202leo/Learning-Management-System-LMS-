@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 var db = mysql.createPool({
   host: "localhost",
   user: "root",
-  password:"Aravind202@",
+  password:"pass",
   database:"lms_db"
 });
 
